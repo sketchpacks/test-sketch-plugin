@@ -1,0 +1,37 @@
+{
+  "name": "Test Sketch Plugin",
+  "description": "This plugin does something cool!",
+  "author": "sketchpacks",
+  "homepage": "https://github.com/sketchpacks/test-sketch-plugin",
+  "version": "1.0.0",
+  "identifier": "com.example.sketchpacks.test-sketch-plugin",
+  "updateURL": "{not used}",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "All",
+      "identifier": "all",
+      "shortcut": "ctrl shift a",
+      "script": "shared.js",
+      "handler": "selectAll"
+    },
+    {
+      "name": "Circles",
+      "identifier": "circles",
+      "script": "Select Circles.cocoascript"
+    },
+    {
+      "name": "Rectangles",
+      "identifier": "rectangles",
+      "script": "Select Rectangles.cocoascript"
+    }
+  ],
+  "menu": {
+    "items": [
+      "all",
+      "circles",
+      "rectangles"
+    ]
+  }
+}
