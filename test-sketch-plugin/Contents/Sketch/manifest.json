@@ -3,7 +3,7 @@
   "description": "This plugin does something cool!",
   "author": "sketchpacks",
   "homepage": "https://github.com/sketchpacks/test-sketch-plugin",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "identifier": "com.example.sketchpacks.test-sketch-plugin",
   "updateURL": "{not used}",
   "compatibleVersion": 3,
